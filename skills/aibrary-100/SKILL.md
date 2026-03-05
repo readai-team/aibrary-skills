@@ -1,6 +1,6 @@
 ---
-name: aibrary100
-description: Access Aibrary's curated list of 100 must-read books for the AI age, organized by category. Use when the user asks about essential books, wants the Aibrary 100 list, asks for must-read books for the AI era, or wants curated book recommendations across critical thinking, creativity, systems thinking, and action. Trigger on phrases like "aibrary 100", "must-read books", "essential reading list", or "best books for the AI age".
+name: aibrary-100
+description: "[Aibrary] Access Aibrary's curated list of 100 must-read books for the AI age, organized by category. Use when the user asks about essential books, wants the Aibrary 100 list, asks for must-read books for the AI era, or wants curated book recommendations across critical thinking, creativity, systems thinking, and action. Trigger on phrases like 'aibrary 100', 'must-read books', 'essential reading list', or 'best books for the AI age'."
 ---
 
 # Aibrary 100 — Must-Read Books for the AI Age

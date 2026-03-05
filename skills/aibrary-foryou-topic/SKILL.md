@@ -1,6 +1,6 @@
 ---
-name: foryou-topic
-description: Generate personalized "For You" book topic recommendations based on the user's profile, interests, career stage, and recent learning activity. Use when the user wants personalized topic suggestions, asks "what should I learn today", wants a curated feed of book-based topics, or needs inspiration for their next area of exploration. Proactively suggest this when the user seems undecided about what to read or learn next.
+name: aibrary-foryou-topic
+description: "[Aibrary] Generate personalized 'For You' book topic recommendations based on the user's profile, interests, career stage, and recent learning activity. Use when the user wants personalized topic suggestions, asks 'what should I learn today', wants a curated feed of book-based topics, or needs inspiration for their next area of exploration. Proactively suggest this when the user seems undecided about what to read or learn next."
 ---
 
 # ForYou Topic — Aibrary

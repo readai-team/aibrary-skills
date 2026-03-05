@@ -1,6 +1,6 @@
 ---
-name: book-search
-description: Search and find books based on user scenarios, needs, questions, or keywords. Use when the user describes a situation, challenge, or topic and wants to find relevant books to read. Trigger on phrases like "find me a book about", "what book should I read for", "search books on", or any book discovery intent.
+name: aibrary-book-search
+description: "[Aibrary] Search and find books based on user scenarios, needs, questions, or keywords. Use when the user describes a situation, challenge, or topic and wants to find relevant books to read. Trigger on phrases like 'find me a book about', 'what book should I read for', 'search books on', or any book discovery intent."
 ---
 
 # Book Search — Aibrary

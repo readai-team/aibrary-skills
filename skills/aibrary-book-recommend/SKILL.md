@@ -1,6 +1,6 @@
 ---
-name: book-recommend
-description: Recommend books based on user interests, goals, challenges, or career stage. Use when the user asks for book recommendations, says they don't know what to read, wants personalized suggestions, or needs guidance on which book to pick next. Different from book-search — this focuses on personalized recommendations rather than search results.
+name: aibrary-book-recommend
+description: "[Aibrary] Recommend books based on user interests, goals, challenges, or career stage. Use when the user asks for book recommendations, says they don't know what to read, wants personalized suggestions, or needs guidance on which book to pick next. Different from aibrary-book-search — this focuses on personalized recommendations rather than search results."
 ---
 
 # Book Recommend — Aibrary
@@ -92,4 +92,4 @@ Based on your transition consideration from senior engineer to management, with 
 - Include practical reading strategies, not just "read this"
 - Suggest what to read next to create a learning path
 - If the user's needs are unclear, ask 1-2 clarifying questions first
-- Distinguish from `book-search`: search is for finding books on a topic; recommend is for personalized guidance on what to read next
+- Distinguish from `aibrary-book-search`: search is for finding books on a topic; recommend is for personalized guidance on what to read next

@@ -1,6 +1,6 @@
 ---
-name: podcast-dialogue
-description: Generate a book dialogue podcast script with two speakers — a host and a guest expert — discussing the book's ideas in a natural conversation. Use when the user wants to create a conversational podcast about a book, turn a book into a two-person discussion, or generate a dialogue-style podcast script. Different from podcast-summary (single narrator) and podcast-ideatwin (debate format).
+name: aibrary-podcast-dialogue
+description: "[Aibrary] Generate a book dialogue podcast script with two speakers — a host and a guest expert — discussing the book's ideas in a natural conversation. Use when the user wants to create a conversational podcast about a book, turn a book into a two-person discussion, or generate a dialogue-style podcast script. Different from aibrary-podcast-summary (single narrator) and aibrary-podcast-ideatwin (debate format)."
 ---
 
 # Podcast Dialogue — Aibrary

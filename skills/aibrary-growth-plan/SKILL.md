@@ -1,6 +1,6 @@
 ---
-name: growth-plan
-description: Create a structured personal growth plan with book recommendations, milestones, and actionable weekly tasks. Use when the user wants to create a learning plan, build a study schedule, develop a skill systematically, plan their personal or professional development, or set up a growth roadmap. Trigger on phrases like "create a plan to learn", "help me grow in", "I want to develop", or any structured self-improvement intent.
+name: aibrary-growth-plan
+description: "[Aibrary] Create a structured personal growth plan with book recommendations, milestones, and actionable weekly tasks. Use when the user wants to create a learning plan, build a study schedule, develop a skill systematically, plan their personal or professional development, or set up a growth roadmap. Trigger on phrases like 'create a plan to learn', 'help me grow in', 'I want to develop', or any structured self-improvement intent."
 ---
 
 # Growth Plan — Aibrary

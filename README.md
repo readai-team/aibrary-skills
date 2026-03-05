@@ -4,6 +4,50 @@ Skills for [Claude Code](https://code.claude.com) and [OpenClaw](https://opencla
 
 Turn books into actionable knowledge — search, recommend, curate, generate podcast scripts, and plan your growth, all from the command line.
 
+## Installation
+
+### Option 1 — [OpenClaw](https://openclaw.ai)
+
+Read https://www.aibrary.ai/skill.md and follow the instructions to install Aibrary Skills.
+
+### Option 2 — [ClawHub](https://clawhub.ai/)
+
+ClawHub installs skills individually:
+
+```bash
+npx clawhub@latest install aibrary-book-search
+npx clawhub@latest install aibrary-podcast-summary
+```
+
+Available skills: `aibrary-100`, `aibrary-book-search`, `aibrary-book-recommend`, `aibrary-reading-list`, `aibrary-foryou-topic`, `aibrary-growth-plan`, `aibrary-podcast-summary`, `aibrary-podcast-dialogue`, `aibrary-podcast-ideatwin`
+
+### Option 3 — [skills.sh](https://skills.sh/)
+
+```bash
+npx skills add readai-team/aibrary-skills
+```
+
+### Option 4 — Manual (git clone)
+
+**Add to your project (recommended for teams)**
+
+```bash
+git clone https://github.com/readai-team/aibrary-skills.git
+cp -r aibrary-skills/skills/* your-project/.claude/skills/
+```
+
+Skills committed to `.claude/skills/` are automatically discovered when Claude Code opens that project.
+
+**Add as personal skills (available across all projects)**
+
+```bash
+git clone https://github.com/readai-team/aibrary-skills.git
+mkdir -p ~/.claude/skills
+cp -r aibrary-skills/skills/* ~/.claude/skills/
+```
+
+After installation, type `/aibrary-book-search`, `/aibrary-podcast-summary`, etc. in Claude Code to use.
+
 ## Skills Overview
 
 ### 📖 Book Discovery
@@ -13,7 +57,6 @@ Turn books into actionable knowledge — search, recommend, curate, generate pod
 | **Book Search** | `/aibrary-book-search` | Find books matching a scenario, need, or question |
 | **Book Recommend** | `/aibrary-book-recommend` | Get personalized 1-3 book recommendations with reading strategies |
 | **Reading List** | `/aibrary-reading-list` | Generate a themed, multi-stage reading list with logical order |
-| **Aibrary 100** | `/aibrary-100` | Browse the curated 100 must-read books for the AI age |
 
 ### 🎙️ Podcast Generation
 
@@ -29,6 +72,7 @@ Turn books into actionable knowledge — search, recommend, curate, generate pod
 |-------|---------|--------------|
 | **ForYou Topic** | `/aibrary-foryou-topic` | Get personalized book topic recommendations based on your profile |
 | **Growth Plan** | `/aibrary-growth-plan` | Create a structured, time-bound growth plan with weekly tasks |
+| **Aibrary 100** | `/aibrary-100` | Browse the curated 100 must-read books for the AI age |
 
 ## Usage Examples
 
@@ -78,35 +122,6 @@ Turn books into actionable knowledge — search, recommend, curate, generate pod
 - **Pure prompt mode** — no API keys or external dependencies required
 - **Structured output** — every skill produces well-formatted, actionable results
 - **Interconnected skills** — use `aibrary-book-search` to find books, `aibrary-podcast-summary` to turn them into audio scripts, and `aibrary-growth-plan` to build a learning roadmap around them
-
-## Installation
-
-### Claude Code
-
-**Option 1 — Add to your project (recommended for teams)**
-
-Clone or add this repo as a submodule, then copy skills into your project's `.claude/skills/` directory:
-
-```bash
-git clone https://github.com/readai-team/aibrary-skills.git
-cp -r aibrary-skills/skills/* your-project/.claude/skills/
-```
-
-Skills committed to `.claude/skills/` are automatically discovered when Claude Code opens that project.
-
-**Option 2 — Add as personal skills (available across all projects)**
-
-```bash
-git clone https://github.com/readai-team/aibrary-skills.git
-mkdir -p ~/.claude/skills
-cp -r aibrary-skills/skills/* ~/.claude/skills/
-```
-
-After installation, type `/aibrary-book-search`, `/aibrary-podcast-summary`, etc. in Claude Code to use.
-
-### OpenClaw
-
-Point your OpenClaw configuration to this repository's `skills/` directory. See [OpenClaw docs](https://docs.openclaw.ai/tools/skills) for details.
 
 ## Repository Structure
 

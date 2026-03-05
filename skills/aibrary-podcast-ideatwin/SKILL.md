@@ -1,6 +1,6 @@
 ---
-name: podcast-ideatwin
-description: Generate a book Idea Twin podcast script — an intellectually stimulating debate between the user's AI twin and a book expert. Based on Vygotsky's Zone of Proximal Development theory, the AI twin mirrors the user's thinking style while the expert progressively challenges their understanding. Use when the user wants to create an Idea Twin podcast, debate a book's ideas with an AI version of themselves, or explore a book through intellectual sparring.
+name: aibrary-podcast-ideatwin
+description: "[Aibrary] Generate a book Idea Twin podcast script — an intellectually stimulating debate between the user's AI twin and a book expert. Based on Vygotsky's Zone of Proximal Development theory, the AI twin mirrors the user's thinking style while the expert progressively challenges their understanding. Use when the user wants to create an Idea Twin podcast, debate a book's ideas with an AI version of themselves, or explore a book through intellectual sparring."
 ---
 
 # Podcast Idea Twin — Aibrary

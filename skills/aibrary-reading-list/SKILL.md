@@ -1,6 +1,6 @@
 ---
-name: reading-list
-description: Generate a curated, themed reading list with multiple books organized in a logical reading order. Use when the user wants a systematic book list on a topic, asks for a book list or reading list, wants to deeply explore a domain through multiple books, or needs to build expertise in an area. Different from book-recommend (single book) and book-search (finding specific books).
+name: aibrary-reading-list
+description: "[Aibrary] Generate a curated, themed reading list with multiple books organized in a logical reading order. Use when the user wants a systematic book list on a topic, asks for a book list or reading list, wants to deeply explore a domain through multiple books, or needs to build expertise in an area. Different from aibrary-book-recommend (single book) and aibrary-book-search (finding specific books)."
 ---
 
 # Reading List — Aibrary

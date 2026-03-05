@@ -83,15 +83,26 @@ Turn books into actionable knowledge — search, recommend, curate, generate pod
 
 ### Claude Code
 
-Add this repository as a skills source in your Claude Code configuration:
+**Option 1 — Add to your project (recommended for teams)**
+
+Clone or add this repo as a submodule, then copy skills into your project's `.claude/skills/` directory:
 
 ```bash
-# Clone the repository
 git clone https://github.com/readai-team/aibrary-skills.git
+cp -r aibrary-skills/skills/* your-project/.claude/skills/
+```
 
-# Add to your Claude Code skills directory
+Skills committed to `.claude/skills/` are automatically discovered when Claude Code opens that project.
+
+**Option 2 — Add as personal skills (available across all projects)**
+
+```bash
+git clone https://github.com/readai-team/aibrary-skills.git
+mkdir -p ~/.claude/skills
 cp -r aibrary-skills/skills/* ~/.claude/skills/
 ```
+
+After installation, type `/book-search`, `/podcast-summary`, etc. in Claude Code to use.
 
 ### OpenClaw
 
